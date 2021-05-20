@@ -1,0 +1,18 @@
+{
+  "name": "etrans-automator-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  }
+}
